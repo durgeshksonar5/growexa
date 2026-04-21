@@ -1,0 +1,43 @@
+#smooth-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+#smooth-content {
+    will-change: transform;
+}
+
+/* Global Audit & Repair Fixes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fix for mobile horizontal scroll */
+.tp-container, .container {
+    max-width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Sticky Header Refine */
+.header-sticky {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Transitions */
+.tp-btn, .actova-btn, .tp-btn-primary, .actova-btn-secondary {
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* Dark Theme Consistency - Ensure text visibility */
+.sec-title-3, .sec-title-2 {
+    color: var(--tp-common-white, #fff);
+}
+
