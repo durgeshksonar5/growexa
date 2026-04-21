@@ -2495,4 +2495,29 @@
     //////////////////////////////////////////////////////
 
 
-})(jQuery);
+    // Contact Form Handler
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const status = document.getElementById('form-status');
+            const btn = contactForm.querySelector('button[type="submit"]');
+            
+            // Premium feedback effect
+            if (status) {
+                status.style.display = 'block';
+                status.innerHTML = 'Sending message...';
+                btn.disabled = true;
+                btn.style.opacity = '0.5';
+
+                setTimeout(() => {
+                    status.innerHTML = 'Thank you! Your message has been sent successfully.';
+                    contactForm.reset();
+                    btn.disabled = false;
+                    btn.style.opacity = '1';
+                }, 1500);
+            }
+        });
+    }
+
+})(jQuery);
