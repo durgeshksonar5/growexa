@@ -1,52 +1,51 @@
-# Actova - Premium AI Agency & Technology Website
+# Growexa - Premium 360° Digital Growth & Automation Website
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![Developer](https://img.shields.io/badge/Developer-Durgesh%20Sonar-green.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-gold.svg)
+![Developer](https://img.shields.io/badge/Developer-Durgesh%20Sonar-black.svg)
 ![Licence](https://img.shields.io/badge/Licence-Private-red.svg)
 
-Actova is a state-of-the-art, high-performance agency website designed for AI startups, technology firms, and digital solution providers. Developed and maintained by **Durgesh Sonar**, this project features cutting-edge animations, a professional dark theme, and a fully production-ready directory structure.
+Growexa is a high-end, luxury-themed agency website specializing in **Digital Marketing, CRM, and ERP Software Automation**. Developed and maintained by **Durgesh Sonar**, this project features a premium "Black & Gold" aesthetic, cutting-edge animations, and a sophisticated centralized architecture for modern web performance.
 
 ---
 
 ## 🚀 Key Features
 
-- **Premium Dark Aesthetic**: A sleek, modern design language optimized for technology and AI branding.
-- **GSAP Animations**: Advanced entry and scroll-triggered animations using ScrollTrigger, ScrollSmoother, and SplitText.
-- **Fully Responsive**: Optimized for high-resolution desktops, laptops, tablets, and mobile devices.
-- **Centralized Architecture**: Production-ready folder structure for easy maintenance and scalability.
-- **Performance Optimized**: Minified vendor libraries and optimized asset paths for fast loading times.
-- **Interactive Components**: Smooth carousels (Swiper.js), parallax effects (Vanilla-Tilt), and custom cursors.
+- **Luxury Black & Gold Aesthetic**: A curated, high-contrast design language tailored for premium branding and professional appeal.
+- **Centralized Component System**: Advanced Header and Footer loader systems for effortless site-wide maintenance and updates.
+- **GSAP Advanced Animations**: Immersive scroll-triggered animations using ScrollTrigger, ScrollSmoother, and SplitText for a smooth, cinematic experience.
+- **AI-Driven Interactions**: Integrated AI chat interfaces and futuristic tech sections reflecting 2026 industry standards.
+- **360° Growth Focus**: Dedicated sections for SEO, Performance Ads, Lead Management, and Custom ERP Development.
+- **Performance Optimized**: Minified vendor libraries, optimized asset paths, and lean CSS overrides for lightning-fast loading.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Structure**: HTML5 (Semantic)
-- **Styling**: CSS3 (Vanilla & Custom Utilities), Bootstrap 5
+- **Structure**: Semantic HTML5
+- **Styling**: Vanilla CSS3, Custom "Black & Gold" Design System, Bootstrap 5
+- **Centralization**: Custom JS-based Header/Footer Injection System
 - **Animations**: GSAP (GreenSock Animation Platform)
-- **Interactive JS**: jQuery 3.7.1, Swiper.js, Magnific Popup
-- **Icons**: FontAwesome 6 Pro
-- **Typography**: Space Grotesk & Space Mono (Google Fonts)
+- **Interactive JS**: jQuery 3.7.1, Swiper.js, Magnific Popup, Vanilla-Tilt
+- **Icons**: FontAwesome 6 Pro (Gold Tinted)
+- **Typography**: Space Grotesk & Outfit (Google Fonts)
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-/actova-html
-├── index.html              # Homepage
-├── service.html            # Services Listing Page
-├── contact.html            # Contact Page with Validation
-├── /assets                 # Custom Project Assets
-│   ├── /css                # Refined Stylesheets (main-style.css, spacing.css)
-│   ├── /js                 # Core Logic (main.js, actova-cursor.js)
-│   ├── /images             # Organized Project Images
-│   └── /fonts              # Project-specific Typography
-└── /vendor                 # Standardized 3rd Party Libraries
-    ├── /bootstrap          # Bootstrap Framework
-    ├── /gsap               # GSAP Animation Suite
-    ├── /swiper             # Swiper Carousel Library
-    └── /fontawesome        # Icon Framework
+/growexa
+├── index.html              # Landing Page (Pricing, Features, FAQ)
+├── service.html            # Services & "How We Work" Page
+├── contact.html            # Contact Page with Integrated Map & Form
+├── header.html             # Centralized Header Component
+├── footer.html             # Centralized Footer Component
+├── assets/
+│   ├── css/                # style.css (Custom Overrides), main-style.css
+│   ├── js/                 # footer-loader.js, header-loader.js, main.js
+│   ├── images/             # Organized Brand Assets & Image Icons
+│   └── fonts/              # Premium Typography
+└── vendor/                 # Standardized 3rd Party Libraries
 ```
 
 ---
@@ -58,21 +57,24 @@ Actova is a state-of-the-art, high-performance agency website designed for AI st
    git clone https://github.com/durgeshksonar5/growexa.git
    ```
 2. **Launch the Project**:
-   Since the project uses vanilla HTML/CSS/JS, you can simply open `index.html` in any modern browser.
-3. **Local Development**:
-   For the best experience (and to ensure all GSAP scroll features work smoothly), it is recommended to use a local live server (e.g., VS Code Live Server or `npx http-server`).
+   Since the project uses a centralized component system, it **requires a local server** to load the header and footer via JS (AJAX).
+3. **Recommended Setup**:
+   Use **VS Code Live Server** or run:
+   ```bash
+   npx http-server
+   ```
 
 ---
 
 ## 👤 Developer Profile
 
 **Durgesh Sonar**  
-*Full Stack Developer & Designer*
+*Full Stack Developer & Creative Designer*
 
-Design and development by **Durgesh Sonar**. All rights reserved.
+Project designed and developed by **Durgesh Sonar**. All rights reserved.
 
 ---
 
 ## 📄 License
 
-This project is private and intended for portfolio/production use for **Durgesh Sonar**. For any inquiries, please contact the developer directly.
+This project is private and intended for production use for **Growexa**. For any inquiries or collaboration requests, please contact **Durgesh Sonar** directly.
