@@ -397,6 +397,11 @@ body {
     margin: 0;
 }
 
+.copyright-text span {
+    color: var(--gold-primary);
+    font-weight: 600;
+}
+
 .back-to-top-btn {
     background: transparent;
     border: none;
