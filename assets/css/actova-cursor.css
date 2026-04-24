@@ -634,7 +634,7 @@ button:not(:disabled),
     -o-transform: scale(0) rotate(10deg);
     transform: scale(0) rotate(10deg);
     opacity: 0;
-    color: #020202;
+    color: var(--gold-primary);
     font-size: 15px;
     line-height: 20px;
     text-align: center;
@@ -657,7 +657,7 @@ button:not(:disabled),
 @supports (mix-blend-mode: exclusion) {
     .actova-cursor.-exclusion:before,
     .actova-cursor.-opaque:before {
-        background: white;
+        background: var(--gold-primary);
     }
 }
 
@@ -668,7 +668,7 @@ button:not(:disabled),
 
 .actova-cursor.-normal:before,
 .actova-cursor.-text:before {
-    background: #fff;
+    background: var(--gold-primary);
 }
 
 .actova-cursor.-inverse {

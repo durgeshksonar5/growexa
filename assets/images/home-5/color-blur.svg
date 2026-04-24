@@ -1,13 +1,13 @@
 <svg width="1920" height="1215" viewBox="0 0 1920 1215" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_1083_1410" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1215">
-<rect width="1920" height="1215" fill="#020202"/>
+<rect width="1920" height="1215" fill="#000000"/>
 </mask>
 <g mask="url(#mask0_1083_1410)">
 <g filter="url(#filter0_f_1083_1410)">
-<circle cx="960" r="645" fill="#A1FF75" fill-opacity="0.1"/>
+<circle cx="960" r="645" fill="#D4AF37" fill-opacity="0.1"/>
 </g>
 <g filter="url(#filter1_f_1083_1410)">
-<circle cx="960" cy="-97" r="438" fill="#A1FF75" fill-opacity="0.15"/>
+<circle cx="960" cy="-97" r="438" fill="#D4AF37" fill-opacity="0.15"/>
 </g>
 <g filter="url(#filter2_if_1083_1410)">
 <path d="M945 933C880.5 404.5 666.667 92.6667 535 0H1385C1119.8 95.2 981.167 661.667 945 933Z" fill="url(#paint0_linear_1083_1410)" fill-opacity="0.2"/>
@@ -50,12 +50,12 @@
 <feGaussianBlur stdDeviation="47" result="effect2_foregroundBlur_1083_1410"/>
 </filter>
 <linearGradient id="paint0_linear_1083_1410" x1="960" y1="933" x2="960" y2="0" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A1FF75" stop-opacity="0.4"/>
-<stop offset="1" stop-color="#A1FF75"/>
+<stop stop-color="#D4AF37" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#F2D16B"/>
 </linearGradient>
 <linearGradient id="paint1_linear_1083_1410" x1="960" y1="613" x2="960" y2="0" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A1FF75" stop-opacity="0"/>
-<stop offset="1" stop-color="#A1FF75"/>
+<stop stop-color="#D4AF37" stop-opacity="0"/>
+<stop offset="1" stop-color="#F2D16B"/>
 </linearGradient>
 </defs>
 </svg>
