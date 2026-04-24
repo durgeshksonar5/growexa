@@ -21,6 +21,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.sub-title {
+    color: var(--gold-primary) !important;
+}
+
+.title-wrap p {
+    color: var(--white-soft) !important;
+}
+
 /* Fix for mobile horizontal scroll */
 .tp-container, .container {
     max-width: 100% !important;
@@ -278,4 +286,81 @@ body {
 
 .tp-cta5-content ul li span.icon i {
     color: var(--black) !important;
+}
+
+.tp-service-step ul li a,
+.tp-service-step p,
+.tp-service-step p a {
+    color: var(--black) !important;
+}
+
+.tp-service-step ul li a {
+    background-color: var(--gold-primary) !important;
+    padding: 10px 25px !important;
+    border-radius: 50px !important;
+    display: inline-block !important;
+    font-weight: 600 !important;
+}
+
+/* Featured Service Card - Gold with Black Content */
+.tp-service-card-2.card-1 {
+    background-color: var(--gold-primary) !important;
+    background-image: none !important;
+    border: none !important;
+}
+
+.tp-service-card-2.card-1 .content .title a,
+.tp-service-card-2.card-1 .content p {
+    color: var(--black) !important;
+}
+
+.tp-service-card-2.card-1 .content img.icon {
+    filter: brightness(0) !important;
+}
+
+.tp-how-work-step .title,
+.tp-how-work-step p {
+    color: var(--white-soft) !important;
+}
+
+.tp-how-work-step .step {
+    color: var(--gold-primary) !important;
+}
+
+.tp-contact-type .info p,
+.tp-contact-type .info a {
+    color: var(--white-soft) !important;
+}
+
+.tp-contact-type .icon i {
+    color: var(--gold-primary) !important;
+}
+
+.tp-contact-type .icon {
+    background-color: #050505 !important;
+    border: 1px solid var(--gold-dark) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.tp-contact-type:hover .icon {
+    background-color: var(--gold-primary) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2) !important;
+}
+
+.tp-contact-type:hover .icon i {
+    color: var(--black) !important;
+}
+
+.tp-contact-location .info p,
+.tp-contact-location .info a,
+.tp-live-chat .info p,
+.tp-live-chat .info a {
+    color: var(--white-soft) !important;
+}
+
+.tp-contact-location .icon i,
+.tp-live-chat .icon svg path {
+    color: var(--gold-primary) !important;
+    fill: var(--gold-primary) !important;
 }
