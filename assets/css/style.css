@@ -212,3 +212,70 @@ body {
     padding: 0 !important;
     border: none !important;
 }
+
+.tp-price-desc {
+    color: var(--white-soft) !important;
+}
+
+.tp-price-feature ul li {
+    color: var(--white-soft) !important;
+}
+
+.tp-price-feature ul li span.icon svg path {
+    fill: var(--gold-primary) !important;
+}
+
+/* Popular Plan (Premium) Text Color - Black for contrast */
+.tp-price-plan.popular .plan-name,
+.tp-price-plan.popular .tp-price-desc,
+.tp-price-plan.popular .tp-price-feature ul li,
+.tp-price-plan.popular .tp-price-amount,
+.tp-price-plan.popular .tp-price-amount span {
+    color: var(--black) !important;
+}
+
+.tp-price-plan.popular .tp-price-feature ul li span.icon svg path {
+    fill: var(--black) !important;
+}
+
+.tp-power-content p.text {
+    color: var(--gold-primary) !important;
+}
+
+.tp-power-content p {
+    color: var(--white-soft) !important;
+}
+
+.tp-feature5-item-2 p {
+    color: var(--gold-primary) !important;
+}
+
+.tp-feature5-item-2 .title {
+    color: var(--gold-primary) !important;
+}
+
+.chatgpt-btn {
+    color: var(--gold-primary) !important;
+}
+
+.tp-chat-item p {
+    color: var(--gold-primary) !important;
+}
+
+.tp-chat-item .content p, 
+.tp-chat-item .content .title {
+    color: var(--black) !important;
+}
+
+.tp-chat-item .content img {
+    filter: brightness(0) !important;
+}
+
+.tp-cta5-content h2,
+.tp-cta5-content ul li {
+    color: var(--black) !important;
+}
+
+.tp-cta5-content ul li span.icon i {
+    color: var(--black) !important;
+}
